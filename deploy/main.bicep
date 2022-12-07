@@ -38,3 +38,4 @@ module appService 'modules/appService.bicep' = {
 }
 
 output appServiceAppHostName string = appService.outputs.appServiceAppHostName
+output storageAccountName string = storageAccount.name
